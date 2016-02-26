@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C727DC31C8076C90027CAB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C727DC21C8076C90027CAB9 /* AppDelegate.swift */; };
+		6C727DC51C8076C90027CAB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C727DC41C8076C90027CAB9 /* ViewController.swift */; };
+		6C727DC71C8076C90027CAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C727DC61C8076C90027CAB9 /* Assets.xcassets */; };
+		6C727DCA1C8076C90027CAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C727DC81C8076C90027CAB9 /* Main.storyboard */; };
+		6C727DD51C8076C90027CAB9 /* MusicWriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C727DD41C8076C90027CAB9 /* MusicWriteTests.swift */; };
+		6C727DE01C8076CA0027CAB9 /* MusicWriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C727DDF1C8076CA0027CAB9 /* MusicWriteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C727DD11C8076C90027CAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C727DB71C8076C90027CAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C727DBE1C8076C90027CAB9;
+			remoteInfo = MusicWrite;
+		};
+		6C727DDC1C8076CA0027CAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C727DB71C8076C90027CAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C727DBE1C8076C90027CAB9;
+			remoteInfo = MusicWrite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C727DBF1C8076C90027CAB9 /* MusicWrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicWrite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C727DC21C8076C90027CAB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C727DC41C8076C90027CAB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C727DC61C8076C90027CAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C727DC91C8076C90027CAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C727DCB1C8076C90027CAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C727DD01C8076C90027CAB9 /* MusicWriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicWriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C727DD41C8076C90027CAB9 /* MusicWriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicWriteTests.swift; sourceTree = "<group>"; };
+		6C727DD61C8076C90027CAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C727DDB1C8076CA0027CAB9 /* MusicWriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicWriteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C727DDF1C8076CA0027CAB9 /* MusicWriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicWriteUITests.swift; sourceTree = "<group>"; };
+		6C727DE11C8076CA0027CAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C727DBC1C8076C90027CAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DCD1C8076C90027CAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DD81C8076CA0027CAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C727DB61C8076C90027CAB9 = {
+			isa = PBXGroup;
+			children = (
+				6C727DC11C8076C90027CAB9 /* MusicWrite */,
+				6C727DD31C8076C90027CAB9 /* MusicWriteTests */,
+				6C727DDE1C8076CA0027CAB9 /* MusicWriteUITests */,
+				6C727DC01C8076C90027CAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C727DC01C8076C90027CAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C727DBF1C8076C90027CAB9 /* MusicWrite.app */,
+				6C727DD01C8076C90027CAB9 /* MusicWriteTests.xctest */,
+				6C727DDB1C8076CA0027CAB9 /* MusicWriteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C727DC11C8076C90027CAB9 /* MusicWrite */ = {
+			isa = PBXGroup;
+			children = (
+				6C727DC21C8076C90027CAB9 /* AppDelegate.swift */,
+				6C727DC41C8076C90027CAB9 /* ViewController.swift */,
+				6C727DC61C8076C90027CAB9 /* Assets.xcassets */,
+				6C727DC81C8076C90027CAB9 /* Main.storyboard */,
+				6C727DCB1C8076C90027CAB9 /* Info.plist */,
+			);
+			path = MusicWrite;
+			sourceTree = "<group>";
+		};
+		6C727DD31C8076C90027CAB9 /* MusicWriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C727DD41C8076C90027CAB9 /* MusicWriteTests.swift */,
+				6C727DD61C8076C90027CAB9 /* Info.plist */,
+			);
+			path = MusicWriteTests;
+			sourceTree = "<group>";
+		};
+		6C727DDE1C8076CA0027CAB9 /* MusicWriteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C727DDF1C8076CA0027CAB9 /* MusicWriteUITests.swift */,
+				6C727DE11C8076CA0027CAB9 /* Info.plist */,
+			);
+			path = MusicWriteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C727DBE1C8076C90027CAB9 /* MusicWrite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C727DE41C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWrite" */;
+			buildPhases = (
+				6C727DBB1C8076C90027CAB9 /* Sources */,
+				6C727DBC1C8076C90027CAB9 /* Frameworks */,
+				6C727DBD1C8076C90027CAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicWrite;
+			productName = MusicWrite;
+			productReference = 6C727DBF1C8076C90027CAB9 /* MusicWrite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C727DCF1C8076C90027CAB9 /* MusicWriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C727DE71C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWriteTests" */;
+			buildPhases = (
+				6C727DCC1C8076C90027CAB9 /* Sources */,
+				6C727DCD1C8076C90027CAB9 /* Frameworks */,
+				6C727DCE1C8076C90027CAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C727DD21C8076C90027CAB9 /* PBXTargetDependency */,
+			);
+			name = MusicWriteTests;
+			productName = MusicWriteTests;
+			productReference = 6C727DD01C8076C90027CAB9 /* MusicWriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C727DDA1C8076CA0027CAB9 /* MusicWriteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C727DEA1C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWriteUITests" */;
+			buildPhases = (
+				6C727DD71C8076CA0027CAB9 /* Sources */,
+				6C727DD81C8076CA0027CAB9 /* Frameworks */,
+				6C727DD91C8076CA0027CAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C727DDD1C8076CA0027CAB9 /* PBXTargetDependency */,
+			);
+			name = MusicWriteUITests;
+			productName = MusicWriteUITests;
+			productReference = 6C727DDB1C8076CA0027CAB9 /* MusicWriteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C727DB71C8076C90027CAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Owen McGirr";
+				TargetAttributes = {
+					6C727DBE1C8076C90027CAB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6C727DCF1C8076C90027CAB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6C727DBE1C8076C90027CAB9;
+					};
+					6C727DDA1C8076CA0027CAB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6C727DBE1C8076C90027CAB9;
+					};
+				};
+			};
+			buildConfigurationList = 6C727DBA1C8076C90027CAB9 /* Build configuration list for PBXProject "MusicWrite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C727DB61C8076C90027CAB9;
+			productRefGroup = 6C727DC01C8076C90027CAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C727DBE1C8076C90027CAB9 /* MusicWrite */,
+				6C727DCF1C8076C90027CAB9 /* MusicWriteTests */,
+				6C727DDA1C8076CA0027CAB9 /* MusicWriteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C727DBD1C8076C90027CAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C727DC71C8076C90027CAB9 /* Assets.xcassets in Resources */,
+				6C727DCA1C8076C90027CAB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DCE1C8076C90027CAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DD91C8076CA0027CAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C727DBB1C8076C90027CAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C727DC51C8076C90027CAB9 /* ViewController.swift in Sources */,
+				6C727DC31C8076C90027CAB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DCC1C8076C90027CAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C727DD51C8076C90027CAB9 /* MusicWriteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C727DD71C8076CA0027CAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C727DE01C8076CA0027CAB9 /* MusicWriteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C727DD21C8076C90027CAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C727DBE1C8076C90027CAB9 /* MusicWrite */;
+			targetProxy = 6C727DD11C8076C90027CAB9 /* PBXContainerItemProxy */;
+		};
+		6C727DDD1C8076CA0027CAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C727DBE1C8076C90027CAB9 /* MusicWrite */;
+			targetProxy = 6C727DDC1C8076CA0027CAB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C727DC81C8076C90027CAB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C727DC91C8076C90027CAB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C727DE21C8076CA0027CAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C727DE31C8076CA0027CAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C727DE51C8076CA0027CAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWrite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWrite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C727DE61C8076CA0027CAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWrite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWrite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C727DE81C8076CA0027CAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWriteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicWrite.app/Contents/MacOS/MusicWrite";
+			};
+			name = Debug;
+		};
+		6C727DE91C8076CA0027CAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWriteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicWrite.app/Contents/MacOS/MusicWrite";
+			};
+			name = Release;
+		};
+		6C727DEB1C8076CA0027CAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicWrite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6C727DEC1C8076CA0027CAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicWriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owenmcgirr.MusicWriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicWrite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C727DBA1C8076C90027CAB9 /* Build configuration list for PBXProject "MusicWrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C727DE21C8076CA0027CAB9 /* Debug */,
+				6C727DE31C8076CA0027CAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C727DE41C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C727DE51C8076CA0027CAB9 /* Debug */,
+				6C727DE61C8076CA0027CAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C727DE71C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C727DE81C8076CA0027CAB9 /* Debug */,
+				6C727DE91C8076CA0027CAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C727DEA1C8076CA0027CAB9 /* Build configuration list for PBXNativeTarget "MusicWriteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C727DEB1C8076CA0027CAB9 /* Debug */,
+				6C727DEC1C8076CA0027CAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C727DB71C8076C90027CAB9 /* Project object */;
+}
