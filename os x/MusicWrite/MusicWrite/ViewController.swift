@@ -8,20 +8,19 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class ViewController:NSViewController {
+    
+    // outlets
+    @IBOutlet weak var noteField: NSTextField!
+    @IBOutlet weak var durationField: NSTextField!
+    @IBOutlet weak var delayField: NSTextField!
+    @IBOutlet weak var outputField: NSScrollView!
+    
+    
+    // addNote method
+    @IBAction func addNote(sender: NSButton) {
+        
     }
-
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
+    
 }
 
