@@ -25,6 +25,16 @@ class ViewController:NSViewController {
     }
     
     
+    // load
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // set output text view font 
+        let font = NSFont(name:"Monaco", size:24)
+        outputTextView.font = font
+    }
+    
+    
     // addNote method
     @IBAction func addNote(sender: NSButton) {
         // get previous output 
@@ -43,13 +53,10 @@ class ViewController:NSViewController {
         // append playNote(
         output.appendContentsOf("playNote(")
         
-        // append the note 
-        let locale = NSLocale.currentLocale()
-        let qBegin = locale.objectForKey(NSLocaleQuotationBeginDelimiterKey) as? String ?? "\""
-        let qEnd = locale.objectForKey(NSLocaleQuotationEndDelimiterKey) as? String ?? "\""
-        output.appendContentsOf(qBegin)
+        // append the note
+        output.appendContentsOf("\"")
         output.appendContentsOf(note)
-        output.appendContentsOf(qEnd)
+        output.appendContentsOf("\"")
         output.appendContentsOf(", ")
         
         // append the duration 
