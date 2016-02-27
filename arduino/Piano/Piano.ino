@@ -8,12 +8,9 @@ void setup() {
 void loop() {
 }
 
-void playNote(String keysStr, long duration, long delayBetween) {
-  char keys[sizeof(keysStr)];
-  keysStr.toCharArray(keys, sizeof(keys));
-  
-  for (int i = 0; i < sizeof(keys); i++) {
-    Keyboard.press(keys[i]);
+void playNote(String keys, long duration, long delayBetween) {
+  for (int i = 0; i < keys.length(); i++) {
+    Keyboard.press(keys.charAt(i));
   }
 
   delay(duration);
